@@ -3,8 +3,7 @@ services:
   wildbeast-shard-0:
     image: dougley/wildbeast
     volumes:
-      - ./src:/opt/wildbeast/src
-      - ./index.js:/opt/wildbeast/index.js
+      - ./:/opt/wildbeast/
     environment: 
       - WILDBEAST_SHARDS_MINE=0
     env_file:
@@ -15,8 +14,7 @@ services:
   wildbeast-shard-1:
     image: dougley/wildbeast
     volumes:
-      - ./src:/opt/wildbeast/src
-      - ./index.js:/opt/wildbeast/index.js
+      - ./:/opt/wildbeast/
     environment: 
       - WILDBEAST_SHARDS_MINE=1
     env_file:
@@ -24,10 +22,6 @@ services:
     links:
     - arango
     - lavalink
-  arango:
-    image: arangodb:3.3.14
-    env_file:
-      - arangodb.env
   install:
     restart: 'no'
     links:
@@ -35,9 +29,15 @@ services:
     environment:
       ARANGO_URI: http://arango:8529
     image: dougley/wildbeast
+    volumes:
+      - ./:/opt/wildbeast/
     depends_on:
       - arango
     command: npm run-script dbcreate
+  arango:
+    image: arangodb:3.3.14
+    env_file:
+      - arangodb.env
   lavalink:
     image: fredboat/lavalink:master
     env_file:
