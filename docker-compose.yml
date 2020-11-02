@@ -39,6 +39,6 @@ services:
     env_file:
       - arangodb.env
   lavalink:
-    image: fredboat/lavalink:master
+    image: fredboat/lavalink:dev
     env_file:
       - lavalink.env
