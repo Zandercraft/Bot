@@ -1,4 +1,4 @@
-FROM node:14.2.0
+FROM node:15.4.0
 
 ARG buildno
 ARG commitsha
