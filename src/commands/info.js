@@ -21,7 +21,7 @@ module.exports = {
       embed: {
         color: 0x3498db,
         author: { icon_url: bot.user.avatarURL, name: `${bot.user.username}#${bot.user.discriminator} (${bot.user.id})` },
-        title: 'Running on Zandercraft Bot version 6.1.0',
+        title: 'Running on Zandercraft Bot version 6.4.0',
         timestamp: new Date(),
         fields: fields,
         url: 'https://github.com/Zandercraft/Zandercraft-Bot',
