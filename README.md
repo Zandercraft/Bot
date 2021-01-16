@@ -32,14 +32,23 @@ The Zandercraft Bot is a modified version of WildBeast(which was created by the 
 - [Linux installation guide](http://docs.thesharks.xyz/install_linux/)
 - [Windows installation guide](http://docs.thesharks.xyz/install_windows/)
 
-## Changelog (As of 6.3.0)
-- Urban Dictionary command disabled due to causing crashes
-- Cleverbot command in the works (is being added back in)
-- Lots of dependancy version updates/bumps
-- Support command added back
-- Lavalink updated
-- Lavalink errors fixed
-- And more!
+## Changelog (As of 6.4.0)
+- NEW Fact Commands
+  - +birdfact
+  - +foxfact
+  - +koalafact
+  - +pandafact
+- NEW Random Image Commands
+  - +randombird / +bird
+  - +randomfox / +fox
+  - +randomkoala / +koala
+  - +randompanda / +panda
+  - +randomredpanda / +redpanda
+  - +randomshibe / +shibe / +shiba
+  - +pikachu / +pika
+- NEW Action Commands
+  - +hug
+  - +pat
 
 ---
 
