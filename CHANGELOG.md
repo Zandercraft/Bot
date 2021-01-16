@@ -1,5 +1,23 @@
 # 6.0.0
 ## Release phase
+### 6.4.0
+New Fact Commands
+  - +birdfact
+  - +foxfact
+  - +koalafact
+  - +pandafact
+New Random Image Commands
+  - +randombird / +bird
+  - +randomfox / +fox
+  - +randomkoala / +koala
+  - +randompanda / +panda
+  - +randomredpanda / +redpanda
+  - +randomshibe / +shibe / +shiba
+  - +pikachu / +pika
+New Action Commands
+  - +hug
+  - +pat
+  
 ### 6.1.1
 Stylistic changes    
 Corrected documentation on decoupling to correctly expose both ports of Lavalink. Internal changes to reduce the quirks with this process    
