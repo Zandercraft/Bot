@@ -5,7 +5,7 @@
 const OS = require('os')
 
 module.exports = new Promise(async (resolve, reject) => {
-    if (!process.env.K8S_AUTOSCALE) {
+  if (!process.env.K8S_AUTOSCALE) {
     return resolve({
       total: process.env.WILDBEAST_SHARDS_TOTAL ? parseInt(process.env.WILDBEAST_SHARDS_TOTAL) : 1,
       mine: process.env.WILDBEAST_SHARDS_MINE ? parseInt(process.env.WILDBEAST_SHARDS_MINE) : 0
