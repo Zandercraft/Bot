@@ -50,7 +50,7 @@
     "eris": "^0.14.0",
     "eris-sharder": "^1.10.0",
     "moment": "^2.29.1",
-    "superagent": "^5.2.2",
+    "superagent": "^6.1.0",
     "ws": "^7.4.2"
   },
   "optionalDependencies": {
