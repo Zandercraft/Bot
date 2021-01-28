@@ -50,6 +50,7 @@
     "eris": "^0.14.0",
     "eris-sharder": "^1.10.0",
     "moment": "^2.29.1",
+    "owoify-js": "^1.0.7",
     "superagent": "^6.1.0",
     "ws": "^7.4.2"
   },
