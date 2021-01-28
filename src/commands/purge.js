@@ -22,7 +22,7 @@ module.exports = {
     } else if (memberPerms.manageMessages) {
       const splitSuffix = suffix.split(' ')
       switch (splitSuffix[0]) {
-        case 'author':
+        case 'author': {
           let number
           if (!isNaN(splitSuffix[1]) && splitSuffix[1] < 100 && splitSuffix[1] >= 1) number = splitSuffix[1]
           else if (!isNaN(splitSuffix[2]) && splitSuffix[2] < 100 && splitSuffix[2] >= 1) number = splitSuffix[2]
@@ -71,6 +71,7 @@ module.exports = {
             })
           }
           break
+        }
         default: {
           if (!isNaN(splitSuffix[0]) && splitSuffix[0] < 100) {
             msg.channel.getMessages(splitSuffix[0], msg.id).then((messages) => { // no b1nzy pls
