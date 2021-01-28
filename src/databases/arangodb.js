@@ -53,8 +53,8 @@ module.exports = {
 }
 
 function getSelection (guild, select) {
-  return new Promise((resolve, reject) => {
-    const data = ensureGuild(guild)
+  return new Promise(async (resolve, reject) => {
+    const data = await ensureGuild(guild)
     return resolve(data[select])
   })
 }
