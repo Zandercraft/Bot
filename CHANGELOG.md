@@ -1,5 +1,12 @@
 # 6.0.0
 ## Release phase
+### 6.5.0
+OWO Commands
+  - +owo
+  - +uwu
+  - +uvu
+Fix +hug and +pat commands. (Issue with user returning null) 
+
 ### 6.4.0
 New Fact Commands
   - +birdfact
