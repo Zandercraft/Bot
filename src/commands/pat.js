@@ -16,7 +16,7 @@ module.exports = {
           if (suffix === '') {
             msg.channel.createMessage(res.body.link)
           } else {
-            msg.channel.createMessage(suffix + ', ' + msg.member.nick + ' *pats you*! ' + res.body.link)
+            msg.channel.createMessage(suffix + ', ' + msg.author.username + ' *pats you!* ' + res.body.link)
           }
         } else {
           global.i18n.send('API_ERROR', msg.channel)
