@@ -5,6 +5,7 @@ OWO Commands
   - +owo
   - +uwu
   - +uvu
+
 Fix +hug and +pat commands. (Issue with user returning null) 
 
 ### 6.4.0
@@ -13,6 +14,7 @@ New Fact Commands
   - +foxfact
   - +koalafact
   - +pandafact
+
 New Random Image Commands
   - +randombird / +bird
   - +randomfox / +fox
@@ -21,6 +23,7 @@ New Random Image Commands
   - +randomredpanda / +redpanda
   - +randomshibe / +shibe / +shiba
   - +pikachu / +pika
+
 New Action Commands
   - +hug
   - +pat
