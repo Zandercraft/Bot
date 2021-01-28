@@ -55,7 +55,7 @@
     "ws": "^7.4.2"
   },
   "optionalDependencies": {
-    "@thesharks/jagtag-js": "^1.1.0",
+    "@thesharks/jagtag-js": "^2.0.0",
     "arangojs": "^6.14.1",
     "elasticsearch": "^16.7.2",
     "eris-lavalink": "^1.0.2",
