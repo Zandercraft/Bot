@@ -61,7 +61,7 @@
     "eris-lavalink": "^1.0.2",
     "hot-shots": "^8.3.0",
     "jimp": "^0.16.1",
-    "lokijs": "^1.5.8",
+    "lokijs": "^1.5.11",
     "raven": "^2.6.4",
     "xml-js": "^1.6.11"
   }
