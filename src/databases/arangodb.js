@@ -54,7 +54,7 @@ module.exports = {
 
 function getSelection (guild, select) {
   return new Promise((resolve, reject) => {
-    const data = await ensureGuild(guild)
+    const data = ensureGuild(guild)
     return resolve(data[select])
   })
 }
