@@ -46,7 +46,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "cleverbot.io": "^1.0.4",
-    "dotenv": "^8.2.0",
+    "dotenv": "^10.0.0",
     "eris": "^0.14.0",
     "eris-sharder": "^1.10.0",
     "moment": "^2.29.1",
