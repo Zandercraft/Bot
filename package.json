@@ -52,7 +52,7 @@
     "moment": "^2.29.1",
     "owoify-js": "^1.0.7",
     "superagent": "^6.1.0",
-    "ws": "^7.4.2"
+    "ws": "^7.5.2"
   },
   "optionalDependencies": {
     "@thesharks/jagtag-js": "^1.1.0",
